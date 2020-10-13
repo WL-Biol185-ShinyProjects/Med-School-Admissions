@@ -1,3 +1,6 @@
+*.Rproj
+
+
 # History files
 .Rhistory
 .Rapp.history
@@ -37,6 +40,3 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
-
-# Anything ending with this
-*.Rproj
