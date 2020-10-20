@@ -5,7 +5,7 @@ navbarPage("Medical School Admissions",
           p("Write stuff for about here"),
           
            tabPanel("Academics"),
-           fluidpage(
+           fluidPage(
             sidebarLayout(
               sidebarPanel(
                 numericInput("plotType", "Enter GPA",
@@ -38,7 +38,7 @@ navbarPage("Medical School Admissions",
                   
           
           tabPanel("Target School List")
-          fluidpage(
+          fluidPage(
           sidebarLayout(
             sidebarPanel(
               numericInput("plotType", "Enter GPA",
