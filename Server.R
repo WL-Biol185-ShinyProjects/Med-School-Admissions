@@ -1,3 +1,2 @@
-Beginning of Project 
-
-
+function(input, output)
+{}
