@@ -6,7 +6,7 @@ source()
 #Code for the title of the tab
 
 #Code for page title
-titlePanel("Academic Comparison"),
+titlePanel("Academics"),
 
 #explanation of what this tab shows
 p("This tab allows you to compare your personal academic data to the averages from selected 
@@ -16,7 +16,7 @@ p("This tab allows you to compare your personal academic data to the averages fr
 
 #school drop down bar
 selectInput("Schools", ""
-            unique(A1$`Medical School`))
+            unique(Academics_Data$`Medical School`))
   
 
 #enter your own info
