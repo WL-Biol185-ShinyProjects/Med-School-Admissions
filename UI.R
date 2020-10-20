@@ -1,10 +1,11 @@
-library(markdown)
+library(shiny)
+
 
 navbarPage("Medical School Admissions",
-          tabPanel("About"),
-          p("Write stuff for about here"),
+          tabPanel("About")
+)
           
-           tabPanel("Academics"),
+           tabPanel("Academics")
            fluidPage(
             sidebarLayout(
               sidebarPanel(
@@ -14,19 +15,18 @@ navbarPage("Medical School Admissions",
                              c("Scatter"="p"),
                selectInput("plotType", "Select schools",
                                           c("Scatter"="p")
-               )
-                )
-              )
-          )
-            )
-           ),
-          mainPanel(
-            plotOutput("plot")
-          )
-            )
+                          )
+                            )
+                            )
+                          ),
+                       mainPanel()
+                          )
+                    )
+          
+            
   
         tabPanel("By state")
-        fluidpage(
+        fluidPage(
           sidebarLayout(
             sidebarPanel(
                 selectInput("plotType", "choose your state",
@@ -45,7 +45,11 @@ navbarPage("Medical School Admissions",
                                       c("Scatter"="p"),
                                       numericInput("plotType", "Enter MCAT score",
                                                    c("Scatter"="p"),
-            )
-          ))))
+                                                  )
+                           )
+                         )
+                        )
+                    )
+      
           
-
+#enter main panel argument for each tab-put inside sidebar layout
