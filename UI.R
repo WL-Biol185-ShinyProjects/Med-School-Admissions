@@ -28,7 +28,7 @@ navbarPage("Medical School Admissions")
                selectInput(
                           inputId = "Schools_Input",
                           label = "Select Schools",
-                          choices = list(School_Scores_Data $ 'Medical School'),
+                          choices = unique (School_Scores_Data $ 'Medical School'),
                           multiple = TRUE
                           )
                        ),
@@ -44,7 +44,8 @@ navbarPage("Medical School Admissions")
                 selectInput(
                             inputId = "State_Input",
                             label = "Select Your State",
-                            choices = list(GPA_By_State_Data $'State of Legal Residence'),
+                            choices = unique (GPA_By_State_Data $ 
+                                           'State of Legal Residence'),
                             multiple = TRUE
                            )
                         ),
