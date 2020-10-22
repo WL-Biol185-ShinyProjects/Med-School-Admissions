@@ -31,8 +31,12 @@ navbarPage("Medical School Admissions",
             sidebarPanel(
                 selectInput("plotType", "choose your state",
                               c("Scatter"="p")
-                )
-            )))
+                           )
+                        ),
+                      mainPanel()
+                       )
+                 )
+        
                  tabPanel("By Major")
                   
                   
@@ -47,9 +51,9 @@ navbarPage("Medical School Admissions",
                                                    c("Scatter"="p"),
                                                   )
                            )
-                         )
+                         ),
+                      mainPanel()
                         )
                     )
       
           
-#enter main panel argument for each tab-put inside sidebar layout
