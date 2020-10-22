@@ -28,12 +28,11 @@ navbarPage("Medical School Admissions")
                selectInput(
                           inputId = "Schools_Input",
                           label = "Select Schools",
-                          choices = list("School_Scores_Data$'Medical School'"),
+                          choices = list(School_Scores_Data $ 'Medical School'),
                           multiple = TRUE
-                          ),
-                 
+                          )
                        ),
-              mainPanel()
+                 mainPanel()
                      )
                    )
            
@@ -45,13 +44,15 @@ navbarPage("Medical School Admissions")
                 selectInput(
                             inputId = "State_Input",
                             label = "Select Your State",
-                            choices = list("$''"),
+                            choices = list(GPA_By_State_Data $'State of Legal Residence'),
                             multiple = TRUE
-                ),
-                      mainPanel()
-            
+                           )
+                        ),
+                  mainPanel()
+                      )
+                )
         
-                 tabPanel("By Major")
+          tabPanel("By Major")
                   
                   
           
@@ -59,15 +60,24 @@ navbarPage("Medical School Admissions")
           fluidPage(
           sidebarLayout(
             sidebarPanel(
-              numericInput("plotType", "Enter GPA",
-                                      c("Scatter"="p"),
-                                      numericInput("plotType", "Enter MCAT score",
-                                                   c("Scatter"="p"),
-                                                  )
+                numericInput(
+                            inputId = "GPA_Input",
+                            label = "Enter GPA",
+                            value = "0",
+                            min = "0",
+                            max = "4.0"
+                            ),
+              
+               numericInput(
+                           inputId = "MCAT_Input",
+                           label = "Enter MCAT",
+                           value = "472",
+                           min = "472",
+                           max = "528"
                            )
-                         ),
+                       ),
                       mainPanel()
-                        )
+                      )
                     )
       
           
