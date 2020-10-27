@@ -10,6 +10,7 @@ output$'Academic_Plot' <- renderPlot({GPA_Input %>%
                                  
                                     })
 
+
   
 }
   
