@@ -3,7 +3,13 @@ library(shinydashboard)
 
 navbarPage("Medical School Admissions",
 
-          tabPanel("About"),
+          tabPanel("About",
+                   img(src= "Accepted_Image.jpg", align = "center"),
+                   p("Our app aims to porvide a general picture of your odds of being accepted
+                     into chosen schools based on past applicant and matriculant data. Here you 
+                     visualize your statistics compared to your schools of interest and gauge 
+                     your likelihood of acceptance.")
+                   ),
           
            tabPanel("Academics",
            fluidPage(
