@@ -1,12 +1,11 @@
 library(shiny)
 library(shinydashboard)
 
+navbarPage("Medical School Admissions",
 
-navbarPage("Medical School Admissions")
-
-          tabPanel("About")
+          tabPanel("About"),
           
-           tabPanel("Academics")
+           tabPanel("Academics",
            fluidPage(
             sidebarLayout(
               sidebarPanel(
@@ -36,9 +35,10 @@ navbarPage("Medical School Admissions")
                  mainPanel()
                      )
                    )
+                 ),
            
   
-        tabPanel("By state")
+        tabPanel("By state",
         fluidPage(
           sidebarLayout(
             sidebarPanel(
@@ -53,12 +53,12 @@ navbarPage("Medical School Admissions")
                   mainPanel()
                       )
                 )
+               ),
         
-          tabPanel("By Major")
-                  
+          tabPanel("By Major"),
                   
           
-          tabPanel("Target School List")
+          tabPanel("Target School List",
           fluidPage(
           sidebarLayout(
             sidebarPanel(
@@ -81,5 +81,5 @@ navbarPage("Medical School Admissions")
                       mainPanel()
                       )
                     )
-          
-          
+              )
+          )
