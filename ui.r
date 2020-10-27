@@ -22,7 +22,8 @@ navbarPage("Medical School Admissions",
                              min = "0",
                              max = "4.0"
                              ),
-                            
+                           
+                
                 numericInput(
                             inputId = "MCAT_Input",
                             label = "Enter MCAT",
@@ -38,7 +39,9 @@ navbarPage("Medical School Admissions",
                           multiple = TRUE
                           )
                        ),
-                 mainPanel()
+                 mainPanel(
+                          
+                           )
                      )
                    )
                  ),
@@ -56,7 +59,7 @@ navbarPage("Medical School Admissions",
                             multiple = TRUE
                            )
                         ),
-                  mainPanel()
+                  mainPanel(),
                       )
                 )
                ),
@@ -84,7 +87,9 @@ navbarPage("Medical School Admissions",
                            max = "528"
                            )
                        ),
-                      mainPanel()
+                      mainPanel(
+                        plotOutput("Academic_Plot")
+                      )
                       )
                     )
               )
