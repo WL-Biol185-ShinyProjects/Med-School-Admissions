@@ -35,13 +35,13 @@ navbarPage("Medical School Admissions",
                selectInput(
                           inputId = "Schools_Input",
                           label = "Select Schools",
-                          choices = unique (School_Scores_Data $ 'Medical School'),
+                          choices = unique (Academics_Data $ 'Medical School'),
                           multiple = TRUE
                           )
                        ),
-                 mainPanel(
-                          
-                           )
+              mainPanel(
+                        plotOutput("Academics_Plot")  
+                       )
                      )
                    )
                  ),
@@ -59,12 +59,14 @@ navbarPage("Medical School Admissions",
                             multiple = TRUE
                            )
                         ),
-                  mainPanel(),
+             mainPanel()
                       )
                 )
                ),
         
-          tabPanel("By Major"),
+          tabPanel("By Major",
+                   plotOutput("Major_Plot")
+                   ),
                   
           
           tabPanel("Target School List",
@@ -87,10 +89,8 @@ navbarPage("Medical School Admissions",
                            max = "528"
                            )
                        ),
-                      mainPanel(
-                        plotOutput("Academic_Plot")
+              mainPanel()
                       )
-                      )
-                    )
-              )
+                  )
+                 )
           )
