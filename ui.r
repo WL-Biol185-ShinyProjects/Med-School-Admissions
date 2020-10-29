@@ -1,5 +1,6 @@
 library(shiny)
 library(shinydashboard)
+#code to load tables
 
 navbarPage("Medical School Admissions",
 
@@ -35,7 +36,7 @@ navbarPage("Medical School Admissions",
                selectInput(
                           inputId = "Schools_Input",
                           label = "Select Schools",
-                          choices = unique (Academics_Data $ 'Medical School'),
+                          choices = unique (Academics_Data $ "Medical_School"),
                           multiple = TRUE
                           )
                        ),
@@ -94,3 +95,4 @@ navbarPage("Medical School Admissions",
                   )
                  )
           )
+
