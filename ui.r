@@ -48,18 +48,20 @@ navbarPage("Medical School Admissions",
                  ),
            
   
-        tabPanel("By state",
+        tabPanel("By State",
         fluidPage(
           sidebarLayout(
             sidebarPanel(
                 selectInput(
                             inputId = "State_Input",
                             label = "Select Your State",
-                            choices = unique (GPA_By_State_Data$ 'State of Legal Residence'),
+                            choices = unique (GPA_By_State_Data$State_of_Legal_Residence),
                             multiple = TRUE
                            )
                         ),
-             mainPanel()
+             mainPanel(
+                        plotOutput("Academics_By_State_Graph")
+                       )
                       )
                 )
                ),
@@ -94,4 +96,4 @@ navbarPage("Medical School Admissions",
                   )
                  )
           )
-
+       
