@@ -60,7 +60,8 @@ navbarPage("Medical School Admissions",
                            )
                         ),
              mainPanel(
-                        plotOutput("Academics_By_State_Graph")
+                        plotOutput("Academics_By_State_Graph"),
+                        plotOutput("Applicants_By_State_Graph")
                        )
                       )
                 )

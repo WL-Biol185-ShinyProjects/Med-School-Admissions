@@ -22,6 +22,14 @@ output$Academics_By_State_Graph <- renderPlot({GPA_By_State_Data %>%
                                               geom_point() +
                                               xlim(0, 4) + ylim(472, 528)
                                               })
+
+output$Applicants_By_State_Graph <- renderPlot({GPA_By_State_Data %>%
+                                                filter(State_of_Legal_Residence %in% input$State_Input) %>%
+                                                ggplot(aes(State_of_Legal_Residence, Total_Applicants,
+                                                           fill = State_of_Legal_Residence)) +
+                                                geom_bar(stat = 'identity') +
+                                                ylim(50, 6500)
+                                              })
   
 
 }
