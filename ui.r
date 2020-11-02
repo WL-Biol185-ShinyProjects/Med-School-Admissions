@@ -36,12 +36,12 @@ navbarPage("Medical School Admissions",
                selectInput(
                           inputId = "Schools_Input",
                           label = "Select Schools",
-                          choices = unique (Academics_Data $ "Medical_School"),
+                          choices = unique (Academics_Data$Medical_School),
                           multiple = TRUE
                           )
                        ),
               mainPanel(
-                        plotOutput("Academics_Plot")  
+                        plotOutput("Academic_Plot")  
                        )
                      )
                    )
@@ -55,8 +55,7 @@ navbarPage("Medical School Admissions",
                 selectInput(
                             inputId = "State_Input",
                             label = "Select Your State",
-                            choices = unique (GPA_By_State_Data $ 
-                                           'State of Legal Residence'),
+                            choices = unique (GPA_By_State_Data$ 'State of Legal Residence'),
                             multiple = TRUE
                            )
                         ),
