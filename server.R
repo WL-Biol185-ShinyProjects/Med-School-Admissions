@@ -29,7 +29,36 @@ output$Applicants_By_State_Graph <- renderPlot({GPA_By_State_Data %>%
                                                            fill = State_of_Legal_Residence)) +
                                                 geom_bar(stat = 'identity')
                                               })
-  
+
+output$MCAT_By_Major <- renderPlot({Major_Data_2 %>%
+                                          ggplot(aes(Major, Total_MCAT,
+                                                     fill = Applicant_or_Matriculant)) +
+                                          geom_bar(stat = 'identity',
+                                                   position = 'dodge')
+                                        })
+
+output$Cumulative_GPA_By_Major <- renderPlot({Major_Data_2 %>%
+                                   ggplot(aes(Major, Total_GPA_Mean,
+                                              fill = Applicant_or_Matriculant)) +
+                                   geom_bar(stat = 'identity',
+                                            position = 'dodge')
+                                  })
+
+output$Science_GPA_By_Major <- renderPlot({Major_Data_2 %>%
+                                           ggplot(aes(Major, Science_GPA_Mean,
+                                                      fill = Applicant_or_Matriculant)) +
+                                           geom_bar(stat = 'identity',
+                                                    position = 'dodge')
+                                          })
+
+output$State_Percentages <- renderPlot({Percentages %>%
+                                        filter(Medical_School %in% input$Schools_Input) %>%
+                                        ggplot(aes(In_or_Out, Matriculants_Percent,
+                                                   fill = Medical_School)) +
+                                        geom_bar(stat = 'identity',
+                                                 position = 'dodge')
+                                      })
+
 
 }
   

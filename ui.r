@@ -41,7 +41,8 @@ navbarPage("Medical School Admissions",
                           )
                        ),
               mainPanel(
-                        plotOutput("Academic_Plot")  
+                        plotOutput("Academic_Plot"),
+                        plotOutput("State_Percentages")
                        )
                      )
                    )
@@ -68,7 +69,9 @@ navbarPage("Medical School Admissions",
                ),
         
           tabPanel("By Major",
-                   plotOutput("Major_Plot")
+                   plotOutput("MCAT_By_Major"),
+                   plotOutput("Cumulative_GPA_By_Major"),
+                   plotOutput("Science_GPA_By_Major")
                    ),
                   
           
