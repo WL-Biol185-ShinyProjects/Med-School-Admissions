@@ -13,7 +13,15 @@ navbarPage("Medical School Admissions",
                    ),
           
            tabPanel("Academics",
+                    
            fluidPage(
+             p("On this page, you can input your own GPA and MCAT scores and see where 
+                      you stand in relation to your selected schools of interest."),
+             p("Your point will be generated as the cross section of GPA and MCAT 
+                      shown by the black lines."),
+             p("The bottom graph shows the percent of matriculated students both in 
+                      state and out of state for each of your selected schools. This will 
+                      help you determine how much state of residence matters for admission to these schools."),
             sidebarLayout(
               sidebarPanel(
                 numericInput(
@@ -99,5 +107,5 @@ navbarPage("Medical School Admissions",
                       )
                   )
                  )
-          )
-       
+          
+)
