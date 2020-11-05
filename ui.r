@@ -106,7 +106,9 @@ navbarPage("Medical School Admissions",
                            max = "528"
                            )
                        ),
-              mainPanel()
+              mainPanel(
+                        tableOutput("Target_School_List")
+                       )
                       )
                   )
                  )

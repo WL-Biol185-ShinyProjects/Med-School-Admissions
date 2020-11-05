@@ -1,6 +1,7 @@
 library(shiny)
 library(shinydashboard)
 library(tidyverse)
+library(tibble)
 
 
 function(input, output)
@@ -58,6 +59,10 @@ output$State_Percentages <- renderPlot({Percentages %>%
                                         geom_bar(stat = 'identity',
                                                  position = 'dodge')
                                       })
+
+output$Target_School_List <- renderTable({filter(Academics_Data, Avg_GPA <= input$GPA_Input,
+                                                 Avg_MCAT <= input$MCAT_Input)
+                                        })
 
 
 }
