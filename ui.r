@@ -58,6 +58,7 @@ navbarPage("Medical School Admissions",
            
   
         tabPanel("By State",
+                 p("Here you can see information on each state's average MCAT and GPA, as well as how many people from each state apply to medical school."),
         fluidPage(
           sidebarLayout(
             sidebarPanel(
@@ -77,6 +78,7 @@ navbarPage("Medical School Admissions",
                ),
         
           tabPanel("By Major",
+                   p("See how different undergraduate majors fair on the MCAT, Science GPA, and overall GPA. Also see how this translates to admission to medical schools."),
                    plotOutput("MCAT_By_Major"),
                    plotOutput("Cumulative_GPA_By_Major"),
                    plotOutput("Science_GPA_By_Major")
@@ -84,6 +86,7 @@ navbarPage("Medical School Admissions",
                   
           
           tabPanel("Target School List",
+                   p("See a list of schools that your average MCAT and GPA are at or above the average MCAT and GPA for that school."),
           fluidPage(
           sidebarLayout(
             sidebarPanel(
