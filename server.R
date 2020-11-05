@@ -23,7 +23,7 @@ output$Academics_By_State_Graph <- renderPlot({GPA_By_State_Data %>%
                                               xlim(0, 4) + ylim(472, 528)
                                               })
 
-output$Applicants_By_State_Graph <- renderPlot({GPA_By_State_Data %>%
+output$Applicants_By_State_Graph <- renderPlot({GPA_By_State_Data_2 %>%
                                                 filter(State_of_Legal_Residence %in% input$State_Input) %>%
                                                 ggplot(aes(State_of_Legal_Residence, Total_Applicants,
                                                            fill = State_of_Legal_Residence)) +
