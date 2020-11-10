@@ -9,6 +9,8 @@ GPA_By_State_Data_2.csv <- read.csv(file = 'Data_Sets/GPA_By_State_Data_2.csv')
 In_Out_of_State_Percent.csv <-read.csv(file = 'Data_Sets/In_Out_of_State_Percent.csv')
 Major_Data_2.csv <- read.csv(file = 'Data_Sets/Major_Data_2.csv')
 Percentages.csv <- read.csv(file = 'Data_Sets/Percentages.csv')
+List_Data.csv <- read.csv(file = 'Data_Sets/List_Data.csv')
+
 
 function(input, output)
 {
@@ -66,8 +68,9 @@ output$State_Percentages <- renderPlot({Percentages.csv %>%
                                                  position = 'dodge')
                                       })
 
-output$Target_School_List <- renderTable({filter(Academics_Data.csv, Avg_GPA <= input$GPA_Input,
-                                                 Avg_MCAT <= input$MCAT_Input)
+output$Target_School_List <- renderTable({List_Data.csv %>%
+                                          filter(input$GPA_Input <= Avg_GPA,
+                                                 input$MCAT_Input <= Avg_MCAT)
                                         })
 
 
