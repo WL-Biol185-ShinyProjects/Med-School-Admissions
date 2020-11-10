@@ -9,7 +9,6 @@ Major_Data_2.csv <- read.csv(file = 'Data_Sets/Major_Data_2.csv')
 Percentages.csv <- read.csv(file = 'Data_Sets/Percentages.csv')
 List_Data.csv <- read.csv(file = 'Data_Sets/List_Data.csv')
 
-
 navbarPage("Medical School Admissions",
 
           tabPanel("About",
