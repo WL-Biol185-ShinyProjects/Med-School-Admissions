@@ -3,9 +3,16 @@ library(shinydashboard)
 library(tidyverse)
 library(tibble)
 
+Academics_Data.csv <- read.csv("Academics_Data.csv")
+GPA_By_State_Data.csv <- read.csv("GPA_By_State_Data.csv")
+GPA_By_State_Data_2.csv <- read.csv("GPA_By_State_Data_2.csv")
+In_Out_of_State_Percent.csv <-read.csv("In_Out_of_State_Percent.csv")
+Major_Data_2.csv <- read.csv("Major_Data_2.csv")
+Percentages.csv <- read.csv("Percentages.csv")
+
 function(input, output)
 {
-output$Academic_Plot <- renderPlot({Academics_Data %>% 
+output$Academic_Plot <- renderPlot({Academics_Data.csv %>% 
                                     filter(Medical_School %in% input$Schools_Input) %>%
                                     ggplot(aes(Avg_GPA, Avg_MCAT,
                                                color = Medical_School)) + 
@@ -15,7 +22,7 @@ output$Academic_Plot <- renderPlot({Academics_Data %>%
                                     geom_vline(xintercept = input$GPA_Input)
                                    })
 
-output$Academics_By_State_Graph <- renderPlot({GPA_By_State_Data %>%
+output$Academics_By_State_Graph <- renderPlot({GPA_By_State_Data.csv %>%
                                               filter(State_of_Legal_Residence %in% input$State_Input) %>%
                                               ggplot(aes(Total_GPA_Mean, State_Avg_MCAT,
                                                          color = State_of_Legal_Residence)) +
@@ -23,35 +30,35 @@ output$Academics_By_State_Graph <- renderPlot({GPA_By_State_Data %>%
                                               xlim(0, 4) + ylim(472, 528)
                                               })
 
-output$Applicants_By_State_Graph <- renderPlot({GPA_By_State_Data_2 %>%
+output$Applicants_By_State_Graph <- renderPlot({GPA_By_State_Data_2.csv %>%
                                                 filter(State_of_Legal_Residence %in% input$State_Input) %>%
                                                 ggplot(aes(State_of_Legal_Residence, Total_Applicants,
                                                            fill = State_of_Legal_Residence)) +
                                                 geom_bar(stat = 'identity')
                                               })
 
-output$MCAT_By_Major <- renderPlot({Major_Data_2 %>%
+output$MCAT_By_Major <- renderPlot({Major_Data_2.csv %>%
                                           ggplot(aes(Major, Total_MCAT,
                                                      fill = Applicant_or_Matriculant)) +
                                           geom_bar(stat = 'identity',
                                                    position = 'dodge')
                                         })
 
-output$Cumulative_GPA_By_Major <- renderPlot({Major_Data_2 %>%
+output$Cumulative_GPA_By_Major <- renderPlot({Major_Data_2.csv %>%
                                    ggplot(aes(Major, Total_GPA_Mean,
                                               fill = Applicant_or_Matriculant)) +
                                    geom_bar(stat = 'identity',
                                             position = 'dodge')
                                   })
 
-output$Science_GPA_By_Major <- renderPlot({Major_Data_2 %>%
+output$Science_GPA_By_Major <- renderPlot({Major_Data_2.csv %>%
                                            ggplot(aes(Major, Science_GPA_Mean,
                                                       fill = Applicant_or_Matriculant)) +
                                            geom_bar(stat = 'identity',
                                                     position = 'dodge')
                                           })
 
-output$State_Percentages <- renderPlot({Percentages %>%
+output$State_Percentages <- renderPlot({Percentages.csv %>%
                                         filter(Medical_School %in% input$Schools_Input) %>%
                                         ggplot(aes(In_or_Out, Matriculants_Percent,
                                                    fill = Medical_School)) +
@@ -59,7 +66,7 @@ output$State_Percentages <- renderPlot({Percentages %>%
                                                  position = 'dodge')
                                       })
 
-output$Target_School_List <- renderTable({filter(Academics_Data, Avg_GPA <= input$GPA_Input,
+output$Target_School_List <- renderTable({filter(Academics_Data.csv, Avg_GPA <= input$GPA_Input,
                                                  Avg_MCAT <= input$MCAT_Input)
                                         })
 
