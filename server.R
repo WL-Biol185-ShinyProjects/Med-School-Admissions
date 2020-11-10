@@ -2,6 +2,7 @@ library(shiny)
 library(shinydashboard)
 library(tidyverse)
 library(tibble)
+
 function(input, output)
 {
 output$Academic_Plot <- renderPlot({Academics_Data %>% 
