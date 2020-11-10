@@ -98,7 +98,7 @@ navbarPage("Medical School Admissions",
           sidebarLayout(
             sidebarPanel(
                 numericInput(
-                            inputId = "GPA_Input",
+                            inputId = "GPA_Input_2",
                             label = "Enter GPA",
                             value = "0",
                             min = "0",
@@ -106,7 +106,7 @@ navbarPage("Medical School Admissions",
                             ),
               
                numericInput(
-                           inputId = "MCAT_Input",
+                           inputId = "MCAT_Input_2",
                            label = "Enter MCAT",
                            value = "472",
                            min = "472",
