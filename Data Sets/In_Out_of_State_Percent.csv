@@ -1,0 +1,311 @@
+﻿State,Medical_School,Applicant_or_Matriculant,Total,In_State_Percent,Out_of_State_Percent
+AL,Alabama,Applicant,"4,614",11.7,88.3
+AL,South Alabama,Applicant,"1,433",32.2,67.8
+AR,Arkansas,Applicant,"2,189",16.2,83.8
+AZ,Arizona,Applicant,"9,563",8.1,91.9
+AZ,Arizona Phoenix,Applicant,"6,079",12.8,87.2
+CA,California,Applicant,"5,383",60.9,39.1
+CA,California Northstate,Applicant,"4,427",66.2,33.8
+CA,Kaiser Permanente,Applicant,"10,478",44.7,55.3
+CA,Loma Linda,Applicant,"6,192",39.7,60.3
+CA,Southern Cal-Keck,Applicant,"8,383",48.8,51.2
+CA,Stanford,Applicant,"6,800",34.4,65.6
+CA,UC Davis,Applicant,"7,023",68.9,31.1
+CA,UC Irvine,Applicant,"6,158",73.6,26.4
+CA,UC Riverside,Applicant,"5,669",77.3,22.7
+CA,UC San Diego,Applicant,"7,741",57.3,42.7
+CA,UC San Francisco,Applicant,"7,399",48.4,51.6
+CA,UCLA-Geffen,Applicant,"11,778",48.0,52.0
+CO,Colorado,Applicant,"10,431",6.6,93.4
+CT,Connecticut,Applicant,"3,727",13.4,86.6
+CT,Quinnipiac-Netter,Applicant,"7,214",5.4,94.6
+CT,Yale,Applicant,"5,332",4.3,95.7
+DC,George Washington,Applicant,"14,611",0.5,99.5
+DC,Georgetown,Applicant,"14,455",0.5,99.5
+DC,Howard,Applicant,"8,758",0.5,99.5
+FL,FIU-Wertheim,Applicant,"4,871",50.4,49.6
+FL,Florida,Applicant,"4,446",51.5,48.5
+FL,Florida Atlantic-Schmidt,Applicant,"3,748",56.9,43.1
+FL,Florida State,Applicant,"7,146",38.0,62.0
+FL,Miami-Miller,Applicant,"8,779",24.0,76.0
+FL,Nova Southeastern-Patel,Applicant,"5,388",34.2,65.8
+FL,UCF,Applicant,"4,676",48.8,51.2
+FL,USF-Morsani,Applicant,"5,385",42.8,57.2
+GA,Emory,Applicant,"11,679",7.2,92.8
+GA,MC Georgia Augusta,Applicant,"2,767",46.2,53.8
+GA,Mercer,Applicant,"1,251",99.8,0.2
+GA,Morehouse,Applicant,"6,648",11.8,88.2
+HI,Hawaii-Burns,Applicant,"2,175",11.8,88.2
+IA,Iowa-Carver,Applicant,"4,021",8.0,92.0
+IL,Carle Illinois,Applicant,"2,830",16.9,83.1
+IL,Chicago Med Franklin,Applicant,"11,893",11.9,88.1
+IL,Chicago-Pritzker,Applicant,"6,146",11.6,88.4
+IL,Illinois,Applicant,"5,015",34.3,65.7
+IL,Loyola-Stritch,Applicant,"14,305",11.0,89.0
+IL,Northwestern-Feinberg,Applicant,"7,045",11.9,88.1
+IL,Rush,Applicant,"11,028",12.1,87.9
+IL,Southern Illinois,Applicant,"1,152",94.4,5.6
+IN,Indiana,Applicant,"5,982",11.4,88.6
+KS,Kansas,Applicant,"3,079",16.7,83.3
+KY,Kentucky,Applicant,"2,775",20.7,79.3
+KY,Louisville,Applicant,"4,598",11.0,89.0
+LA,LSU New Orleans,Applicant,"3,987",17.2,82.8
+LA,LSU Shreveport,Applicant,"3,893",17.0,83.0
+LA,Tulane,Applicant,"12,752",3.4,96.6
+MA,Boston,Applicant,"9,456",8.8,91.2
+MA,Harvard,Applicant,"7,463",7.7,92.3
+MA,Massachusetts,Applicant,"4,484",23.6,76.4
+MA,Tufts,Applicant,"13,279",7.8,92.2
+MD,Johns Hopkins,Applicant,"5,603",6.4,93.6
+MD,Maryland,Applicant,"4,883",18.7,81.3
+MD,Uniformed Services-Hebert,Applicant,"3,114",7.5,92.5
+MI,Central Michigan,Applicant,"6,475",21.9,78.1
+MI,Michigan,Applicant,"8,267",15.0,85.0
+MI,Michigan State,Applicant,"8,856",18.8,81.2
+MI,Oakland Beaumont,Applicant,"6,961",21.4,78.6
+MI,Wayne State,Applicant,"9,516",18.4,81.6
+MI,Western Michigan-Stryker,Applicant,"3,558",31.9,68.1
+MN,Mayo-Alix,Applicant,"6,327",6.1,93.9
+MN,Minnesota,Applicant,"4,936",19.2,80.8
+MO,Missouri Columbia,Applicant,"3,069",18.3,81.7
+MO,Missouri Kansas City,Applicant,"1,936",15.3,84.7
+MO,Saint Louis,Applicant,"5,906",6.6,93.4
+MO,Washington U St Louis,Applicant,"4,547",4.8,95.2
+MS,Mississippi,Applicant,409,99.8,0.2
+NC,Duke,Applicant,"7,620",7.6,92.4
+NC,East Carolina-Brody,Applicant,"1,025",99.6,0.4
+NC,North Carolina,Applicant,"6,281",16.9,83.1
+NC,Wake Forest,Applicant,"9,246",8.9,91.1
+ND,North Dakota,Applicant,"1,453",7.7,92.3
+NE,Creighton,Applicant,"6,834",2.6,97.4
+NE,Nebraska,Applicant,"1,655",18.6,81.4
+NH,Dartmouth-Geisel,Applicant,"8,308",1.0,99.0
+NJ,Cooper Rowan,Applicant,"5,985",20.2,79.8
+NJ,Hackensack Meridian,Applicant,"5,490",20.4,79.6
+NJ,Rutgers New Jersey,Applicant,"5,509",26.8,73.2
+NJ,Rutgers-RW Johnson,Applicant,"5,599",26.6,73.4
+NM,New Mexico,Applicant,"1,722",13.9,86.1
+NV,Nevada Las Vegas,Applicant,"1,796",14.9,85.1
+NV,Nevada Reno,Applicant,"1,643",17.7,82.3
+NY,Albany,Applicant,"11,344",16.7,83.3
+NY,Buffalo-Jacobs,Applicant,"4,360",44.6,55.4
+NY,CUNY,Applicant,76,100.0,0.0
+NY,Columbia-Vagelos,Applicant,"7,293",16.0,84.0
+NY,Cornell-Weill,Applicant,"6,878",18.2,81.8
+NY,Einstein,Applicant,"8,072",20.6,79.4
+NY,Mount Sinai-Icahn,Applicant,"7,153",19.5,80.5
+NY,NYU Long Island,Applicant,"4,342",25.0,75.0
+NY,NYU-Grossman,Applicant,"9,238",14.2,85.8
+NY,New York Medical,Applicant,"12,022",17.6,82.4
+NY,Renaissance Stony Brook,Applicant,"5,164",39.7,60.3
+NY,Rochester,Applicant,"5,651",23.8,76.2
+NY,SUNY Downstate,Applicant,"6,142",39.0,61.0
+NY,SUNY Upstate,Applicant,"4,350",47.4,52.6
+NY,Zucker Hofstra Northwell,Applicant,"4,877",31.2,68.8
+OH,Case Western Reserve,Applicant,"8,121",9.5,90.5
+OH,Cincinnati,Applicant,"5,114",22.2,77.8
+OH,Northeast Ohio,Applicant,"3,990",25.2,74.8
+OH,Ohio State,Applicant,"7,106",17.4,82.6
+OH,Toledo,Applicant,"6,233",18.9,81.1
+OH,Wright State-Boonshoft,Applicant,"7,522",15.7,84.3
+OK,Oklahoma,Applicant,"2,760",15.6,84.4
+OR,Oregon,Applicant,"6,555",7.8,92.2
+PA,Drexel,Applicant,"13,482",8.2,91.8
+PA,Geisinger Commonwealth,Applicant,"6,142",15.5,84.5
+PA,Jefferson-Kimmel,Applicant,"9,916",11.2,88.8
+PA,Penn State,Applicant,"11,472",9.9,90.1
+PA,Pennsylvania-Perelman,Applicant,"6,040",9.9,90.1
+PA,Pittsburgh,Applicant,"7,174",11.7,88.3
+PA,Temple-Katz,Applicant,"11,198",10.6,89.4
+PR,Caribe,Applicant,"1,006",47.2,52.8
+PR,Ponce,Applicant,"1,414",39.0,61.0
+PR,Puerto Rico,Applicant,733,52.5,47.5
+PR,San Juan Bautista,Applicant,"1,261",37.4,62.6
+RI,Brown-Alpert,Applicant,"6,751",1.1,98.9
+SC,MU South Carolina,Applicant,"3,707",15.1,84.9
+SC,South Carolina Columbia,Applicant,"2,969",15.8,84.2
+SC,South Carolina Greenville,Applicant,"3,859",13.2,86.8
+SD,South Dakota-Sanford,Applicant,744,19.2,80.8
+TN,East Tennessee-Quillen,Applicant,"2,433",26.2,73.8
+TN,Meharry,Applicant,"7,115",4.3,95.7
+TN,Tennessee,Applicant,"2,065",34.4,65.6
+TN,Vanderbilt,Applicant,"5,880",4.7,95.3
+TX,Baylor,Applicant,"6,260",30.4,69.6
+TX,Houston,Applicant,"2,216",85.9,14.1
+TX,TCU UNTHSC,Applicant,"4,008",38.1,61.9
+TX,Texas A & M,Applicant,"5,203",78.8,21.2
+TX,Texas Tech,Applicant,"4,910",81.2,18.8
+TX,Texas Tech-Foster,Applicant,"4,570",81.9,18.1
+TX,UT Austin-Dell,Applicant,"5,116",77.9,22.1
+TX,UT Houston-McGovern,Applicant,"5,471",77.0,23.0
+TX,UT Medical Branch,Applicant,"5,150",80.1,19.9
+TX,UT Rio Grande Valley,Applicant,"4,410",81.7,18.3
+TX,UT San Antonio-Long,Applicant,"5,421",77.4,22.6
+TX,UT Southwestern,Applicant,"5,405",75.0,25.0
+UT,Utah,Applicant,"3,406",16.7,83.3
+VA,Eastern Virginia,Applicant,"6,846",15.7,84.3
+VA,Virginia,Applicant,"4,894",15.8,84.2
+VA,Virginia Commonwealth,Applicant,"7,258",15.4,84.6
+VA,Virginia Tech Carilion,Applicant,"4,294",17.4,82.6
+VT,Vermont-Larner,Applicant,"6,902",1.1,98.9
+WA,U Washington,Applicant,"7,572",12.5,87.5
+WA,Washington State-Floyd,Applicant,"1,444",57.2,42.8
+WI,MC Wisconsin,Applicant,"9,341",8.0,92.0
+WI,Wisconsin,Applicant,"5,075",14.1,85.9
+WV,Marshall-Edwards,Applicant,"2,131",9.8,90.2
+WV,West Virginia,Applicant,"5,053",4.2,95.8
+AL,Alabama,Matriculant,186,84.4,15.6
+AL,South Alabama,Matriculant,74,87.8,12.2
+AR,Arkansas,Matriculant,173,95.4,4.6
+AZ,Arizona,Matriculant,117,76.1,23.9
+AZ,Arizona Phoenix,Matriculant,100,55.0,45.0
+CA,California,Matriculant,130,97.7,2.3
+CA,California Northstate,Matriculant,101,95.0,5.0
+CA,Kaiser Permanente,Matriculant,50,50.0,50.0
+CA,Loma Linda,Matriculant,168,46.4,53.6
+CA,Southern Cal-Keck,Matriculant,186,80.6,19.4
+CA,Stanford,Matriculant,90,27.8,72.2
+CA,UC Davis,Matriculant,127,96.1,3.9
+CA,UC Irvine,Matriculant,104,90.4,9.6
+CA,UC Riverside,Matriculant,78,98.7,1.3
+CA,UC San Diego,Matriculant,133,87.2,12.8
+CA,UC San Francisco,Matriculant,178,73.6,26.4
+CA,UCLA-Geffen,Matriculant,175,60.6,39.4
+CO,Colorado,Matriculant,155,42.6,57.4
+CT,Connecticut,Matriculant,110,80.0,20.0
+CT,Quinnipiac-Netter,Matriculant,94,41.5,58.5
+CT,Yale,Matriculant,100,12.0,88.0
+DC,George Washington,Matriculant,178,5.6,94.4
+DC,Georgetown,Matriculant,203,3.4,96.6
+DC,Howard,Matriculant,118,6.8,93.2
+FL,FIU-Wertheim,Matriculant,120,80.8,19.2
+FL,Florida,Matriculant,135,83.7,16.3
+FL,Florida Atlantic-Schmidt,Matriculant,65,66.2,33.8
+FL,Florida State,Matriculant,120,95.0,5.0
+FL,Miami-Miller,Matriculant,204,49.0,51.0
+FL,Nova Southeastern-Patel,Matriculant,50,54.0,46.0
+FL,UCF,Matriculant,120,65.0,35.0
+FL,USF-Morsani,Matriculant,189,63.0,37.0
+GA,Emory,Matriculant,136,34.6,65.4
+GA,MC Georgia Augusta,Matriculant,240,98.3,1.7
+GA,Mercer,Matriculant,125,100.0,0.0
+GA,Morehouse,Matriculant,105,49.5,50.5
+HI,Hawaii-Burns,Matriculant,77,81.8,18.2
+IA,Iowa-Carver,Matriculant,152,65.1,34.9
+IL,Carle Illinois,Matriculant,47,19.1,80.9
+IL,Chicago Med Franklin,Matriculant,189,39.2,60.8
+IL,Chicago-Pritzker,Matriculant,90,17.8,82.2
+IL,Illinois,Matriculant,299,79.3,20.7
+IL,Loyola-Stritch,Matriculant,170,35.3,64.7
+IL,Northwestern-Feinberg,Matriculant,160,26.3,73.8
+IL,Rush,Matriculant,155,34.2,65.8
+IL,Southern Illinois,Matriculant,80,100.0,0.0
+IN,Indiana,Matriculant,365,79.7,20.3
+KS,Kansas,Matriculant,211,88.2,11.8
+KY,Kentucky,Matriculant,205,83.4,16.6
+KY,Louisville,Matriculant,159,73.6,26.4
+LA,LSU New Orleans,Matriculant,196,93.9,6.1
+LA,LSU Shreveport,Matriculant,148,94.6,5.4
+LA,Tulane,Matriculant,190,17.4,82.6
+MA,Boston,Matriculant,152,21.7,78.3
+MA,Harvard,Matriculant,168,11.9,88.1
+MA,Massachusetts,Matriculant,162,74.1,25.9
+MA,Tufts,Matriculant,200,27.0,73.0
+MD,Johns Hopkins,Matriculant,121,10.7,89.3
+MD,Maryland,Matriculant,152,71.7,28.3
+MD,Uniformed Services-Hebert,Matriculant,169,7.1,92.9
+MI,Central Michigan,Matriculant,103,71.8,28.2
+MI,Michigan,Matriculant,168,42.9,57.1
+MI,Michigan State,Matriculant,188,79.8,20.2
+MI,Oakland Beaumont,Matriculant,125,49.6,50.4
+MI,Wayne State,Matriculant,291,69.8,30.2
+MI,Western Michigan-Stryker,Matriculant,84,32.1,67.9
+MN,Mayo-Alix,Matriculant,105,9.5,90.5
+MN,Minnesota,Matriculant,241,79.3,20.7
+MO,Missouri Columbia,Matriculant,128,85.2,14.8
+MO,Missouri Kansas City,Matriculant,124,60.5,39.5
+MO,Saint Louis,Matriculant,183,12.0,88.0
+MO,Washington U St Louis,Matriculant,104,4.8,95.2
+MS,Mississippi,Matriculant,165,100.0,0.0
+NC,Duke,Matriculant,121,19.0,81.0
+NC,East Carolina-Brody,Matriculant,86,100.0,0.0
+NC,North Carolina,Matriculant,193,82.9,17.1
+NC,Wake Forest,Matriculant,145,28.3,71.7
+ND,North Dakota,Matriculant,67,56.7,43.3
+NE,Creighton,Matriculant,167,9.6,90.4
+NE,Nebraska,Matriculant,131,86.3,13.7
+NH,Dartmouth-Geisel,Matriculant,92,6.5,93.5
+NJ,Cooper Rowan,Matriculant,111,69.4,30.6
+NJ,Hackensack Meridian,Matriculant,122,58.2,41.8
+NJ,Rutgers New Jersey,Matriculant,178,83.7,16.3
+NJ,Rutgers-RW Johnson,Matriculant,174,77.6,22.4
+NM,New Mexico,Matriculant,97,92.8,7.2
+NV,Nevada Las Vegas,Matriculant,60,88.3,11.7
+NV,Nevada Reno,Matriculant,70,87.1,12.9
+NY,Albany,Matriculant,143,37.1,62.9
+NY,Buffalo-Jacobs,Matriculant,182,87.4,12.6
+NY,CUNY,Matriculant,76,100.0,0.0
+NY,Columbia-Vagelos,Matriculant,138,16.7,83.3
+NY,Cornell-Weill,Matriculant,106,20.8,79.2
+NY,Einstein,Matriculant,183,50.3,49.7
+NY,Mount Sinai-Icahn,Matriculant,140,25.7,74.3
+NY,NYU Long Island,Matriculant,24,50.0,50.0
+NY,NYU-Grossman,Matriculant,102,19.6,80.4
+NY,New York Medical,Matriculant,212,53.8,46.2
+NY,Renaissance Stony Brook,Matriculant,136,64.7,35.3
+NY,Rochester,Matriculant,102,32.4,67.6
+NY,SUNY Downstate,Matriculant,207,84.1,15.9
+NY,SUNY Upstate,Matriculant,160,88.1,11.9
+NY,Zucker Hofstra Northwell,Matriculant,99,52.5,47.5
+OH,Case Western Reserve,Matriculant,214,15.9,84.1
+OH,Cincinnati,Matriculant,182,46.7,53.3
+OH,Northeast Ohio,Matriculant,151,72.2,27.8
+OH,Ohio State,Matriculant,205,53.7,46.3
+OH,Toledo,Matriculant,176,70.5,29.5
+OH,Wright State-Boonshoft,Matriculant,118,66.9,33.1
+OK,Oklahoma,Matriculant,164,93.3,6.7
+OR,Oregon,Matriculant,150,68.7,31.3
+PA,Drexel,Matriculant,267,27.7,72.3
+PA,Geisinger Commonwealth,Matriculant,115,66.1,33.9
+PA,Jefferson-Kimmel,Matriculant,270,34.8,65.2
+PA,Penn State,Matriculant,152,42.8,57.2
+PA,Pennsylvania-Perelman,Matriculant,155,12.9,87.1
+PA,Pittsburgh,Matriculant,149,38.3,61.7
+PA,Temple-Katz,Matriculant,218,46.3,53.7
+PR,Caribe,Matriculant,75,93.3,6.7
+PR,Ponce,Matriculant,150,75.3,24.7
+PR,Puerto Rico,Matriculant,110,94.5,5.5
+PR,San Juan Bautista,Matriculant,63,77.8,22.2
+RI,Brown-Alpert,Matriculant,144,10.4,89.6
+SC,MU South Carolina,Matriculant,173,85.5,14.5
+SC,South Carolina Columbia,Matriculant,99,73.7,26.3
+SC,South Carolina Greenville,Matriculant,108,57.4,42.6
+SD,South Dakota-Sanford,Matriculant,69,82.6,17.4
+TN,East Tennessee-Quillen,Matriculant,72,77.8,22.2
+TN,Meharry,Matriculant,115,26.1,73.9
+TN,Tennessee,Matriculant,170,90.6,9.4
+TN,Vanderbilt,Matriculant,94,8.5,91.5
+TX,Baylor,Matriculant,186,83.9,16.1
+TX,Houston,Matriculant,30,100.0,0.0
+TX,TCU UNTHSC,Matriculant,60,36.7,63.3
+TX,Texas A & M,Matriculant,175,90.9,9.1
+TX,Texas Tech,Matriculant,180,90.6,9.4
+TX,Texas Tech-Foster,Matriculant,110,93.6,6.4
+TX,UT Austin-Dell,Matriculant,50,92.0,8.0
+TX,UT Houston-McGovern,Matriculant,240,95.0,5.0
+TX,UT Medical Branch,Matriculant,230,97.4,2.6
+TX,UT Rio Grande Valley,Matriculant,55,94.5,5.5
+TX,UT San Antonio-Long,Matriculant,212,86.8,13.2
+TX,UT Southwestern,Matriculant,228,82.9,17.1
+UT,Utah,Matriculant,125,71.2,28.8
+VA,Eastern Virginia,Matriculant,151,53.6,46.4
+VA,Virginia,Matriculant,155,47.7,52.3
+VA,Virginia Commonwealth,Matriculant,186,49.5,50.5
+VA,Virginia Tech Carilion,Matriculant,48,25.0,75.0
+VT,Vermont-Larner,Matriculant,124,29.0,71.0
+WA,U Washington,Matriculant,270,52.6,47.4
+WA,Washington State-Floyd,Matriculant,80,91.3,8.8
+WI,MC Wisconsin,Matriculant,266,47.7,52.3
+WI,Wisconsin,Matriculant,171,73.7,26.3
+WV,Marshall-Edwards,Matriculant,80,86.3,13.8
+WV,West Virginia,Matriculant,112,58.0,42.0
