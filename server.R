@@ -68,11 +68,10 @@ output$State_Percentages <- renderPlot({Percentages.csv %>%
                                                  position = 'dodge')
                                       })
 
-  
-output$Target_School_List <- renderTable({List_Data %>%
-                                          filter(
-                                            Avg_GPA <= input$GPA_Input
-                                             )
+output$Target_School_List <- renderTable({List_Data.csv %>%
+                                          filter(input$MCAT_Input_2 >= Avg_MCAT,
+                                                 input$GPA_Input_2 >= Avg_GPA
+                                                 )
                                         })
 
 
