@@ -1,6 +1,11 @@
 library(shiny)
 library(shinydashboard)
-#code to load tables
+Academics_Data.csv <- read.csv("Academics_Data.csv")
+GPA_By_State_Data.csv <- read.csv("GPA_By_State_Data.csv")
+GPA_By_State_Data_2.csv <- read.csv("GPA_By_State_Data_2.csv")
+In_Out_of_State_Percent <- read.csv("In_Out_of_State_Percent.csv")
+Major_Data_2.csv <- read.csv("Major_Data_2.csv")
+Percentages <- read.csv("Percentages.csv")
 
 navbarPage("Medical School Admissions",
 
@@ -44,7 +49,7 @@ navbarPage("Medical School Admissions",
                selectInput(
                           inputId = "Schools_Input",
                           label = "Select Schools",
-                          choices = unique (Academics_Data$Medical_School),
+                          choices = unique (Academics_Data.csv$Medical_School),
                           multiple = TRUE
                           )
                        ),
@@ -65,7 +70,7 @@ navbarPage("Medical School Admissions",
                 selectInput(
                             inputId = "State_Input",
                             label = "Select Your State",
-                            choices = unique (GPA_By_State_Data$State_of_Legal_Residence),
+                            choices = unique (GPA_By_State_Data.csv$State_of_Legal_Residence),
                             multiple = TRUE
                            )
                         ),
