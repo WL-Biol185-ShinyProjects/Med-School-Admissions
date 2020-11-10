@@ -6,6 +6,7 @@ GPA_By_State_Data_2.csv <- read.csv(file = 'Data_Sets/GPA_By_State_Data_2.csv')
 In_Out_of_State_Percent.csv <-read.csv(file = 'Data_Sets/In_Out_of_State_Percent.csv')
 Major_Data_2.csv <- read.csv(file = 'Data_Sets/Major_Data_2.csv')
 Percentages.csv <- read.csv(file = 'Data_Sets/Percentages.csv')
+List_Data.csv <- read.csv(file = 'Data_Sets/List_Data.csv')
 
 navbarPage("Medical School Admissions",
 
