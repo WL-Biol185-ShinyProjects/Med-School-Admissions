@@ -14,7 +14,9 @@ List_Data.csv <- read.csv(file = 'Data_Sets/List_Data.csv')
 
 function(input, output)
 {
-output$Academic_Plot <- renderPlot({Academics_Data.csv %>% 
+output$Academic_Plot <- renderPlot({
+                                    if (is.numeric(input$GPA_Input) & is.numeric(input$MCAT_Input)) {
+                                    Academics_Data.csv %>% 
                                     filter(Medical_School %in% input$Schools_Input) %>%
                                     ggplot(aes(Avg_GPA, Avg_MCAT,
                                                color = Medical_School)) + 
@@ -22,6 +24,7 @@ output$Academic_Plot <- renderPlot({Academics_Data.csv %>%
                                     xlim(0, 4) + ylim(472, 528) +
                                     geom_hline(yintercept = input$MCAT_Input)+
                                     geom_vline(xintercept = input$GPA_Input)
+                                                                                                     }
                                    })
                         
 output$Academics_By_State_Graph <- renderPlot({GPA_By_State_Data.csv %>%
