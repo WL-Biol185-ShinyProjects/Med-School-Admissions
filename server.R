@@ -23,7 +23,7 @@ output$Academic_Plot <- renderPlot({Academics_Data.csv %>%
                                     geom_hline(yintercept = input$MCAT_Input)+
                                     geom_vline(xintercept = input$GPA_Input)
                                    })
-
+                        
 output$Academics_By_State_Graph <- renderPlot({GPA_By_State_Data.csv %>%
                                               filter(State_of_Legal_Residence %in% input$State_Input) %>%
                                               ggplot(aes(Total_GPA_Mean, State_Avg_MCAT,
