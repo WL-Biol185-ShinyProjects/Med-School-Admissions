@@ -17,7 +17,7 @@ navbarPage("Medical School Admissions",
                         align = "center"
                         )),
                    img(src= "Accepted_Image.jpg", align = "center"),
-                   p(h3(("Our app aims to porvide a general picture of your odds of being accepted
+                   p(h3(("Our app aims to provide a general picture of your odds of being accepted
                      into chosen schools based on past applicant and matriculant data. Here you 
                      visualize your statistics compared to your schools of interest and gauge 
                      your likelihood of acceptance."),
