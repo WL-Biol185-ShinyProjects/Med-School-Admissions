@@ -11,12 +11,18 @@ List_Data.csv <- read.csv(file = 'Data_Sets/List_Data.csv')
 
 navbarPage("Medical School Admissions",
 
-          tabPanel("About",
+          tabPanel("Introduction",
+                   p(h1(("Welcome!"),
+                        style = "color: blue",
+                        align = "center"
+                        )),
                    img(src= "Accepted_Image.jpg", align = "center"),
-                   p("Our app aims to porvide a general picture of your odds of being accepted
+                   p(h3(("Our app aims to porvide a general picture of your odds of being accepted
                      into chosen schools based on past applicant and matriculant data. Here you 
                      visualize your statistics compared to your schools of interest and gauge 
-                     your likelihood of acceptance.")
+                     your likelihood of acceptance."),
+                        align = "center"
+                        ))
                    ),
           
            tabPanel("Academics",
@@ -120,8 +126,32 @@ navbarPage("Medical School Admissions",
                   )
                  ),
         
-        tabPanel("Thank You",
-                 p("Thank you to our professor, Dr. Gregg Whitworth, for helping us create this app!")
+        tabPanel("About",
+                 p(h1(("About the Creators"), 
+                      style = "color: blue",
+                      align = "center"
+                      )),
+                 p(h3(("The creators of this shiny app are Grace Amaden '21, Hal Fant '22 and Annie Furr '22.
+                   All three of us are pre-medical students which inspired the idea for this app."), 
+                      align = "center"
+                      )),
+                 p(h3(("We could not have done this without help from our professor, Dr. Gregg Whitworth!"),
+                      align = "center"
+                      )),
+                 p(h3(("We hope you find this app useful when looking to apply to medical school!"),
+                   align = "center"
+                   )),
+                 p(h1(("Sources"), 
+                      style = "color: blue",
+                      align = "center"
+                      )),
+                 p(h3(("Tables A1, A17, A19, from AAMC 2020 Facts Page: https://www.aamc.org/data-reports/
+                   students-residents/interactive-data/2020-facts-applicants-and-matriculants-data"),
+                   align = "center"
+                   )),
+                 p(h3(("MCAT Test Scores: https://www.mcattestscores.com/usmedicalschoolsmcatscoresGPA.html#Newyork"),
+                   align = "center"
+                   ))
                 )
             
       )
