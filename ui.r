@@ -33,8 +33,9 @@ navbarPage("Medical School Admissions",
              p("Your point will be generated as the cross section of GPA and MCAT 
                       shown by the black lines."),
              p("The bottom graph shows the percent of matriculated students both in 
-                      state and out of state for each of your selected schools. This will 
-                      help you determine how much state of residence matters for admission to these schools."),
+                state and out of state for each of your selected schools. This will 
+                help you determine how much state of residence matters for admission 
+                to these schools."),
             sidebarLayout(
               sidebarPanel(
                 numericInput(
@@ -71,7 +72,8 @@ navbarPage("Medical School Admissions",
            
   
         tabPanel("By State",
-                 p("Here you can see information on each state's average MCAT and GPA, as well as how many people from each state apply to medical school."),
+                 p("Here you can see information on each state's average MCAT and GPA, as well 
+                   as how many people from each state apply to medical school."),
         fluidPage(
           sidebarLayout(
             sidebarPanel(
@@ -91,16 +93,31 @@ navbarPage("Medical School Admissions",
                ),
         
           tabPanel("By Major",
-                   p("See how different undergraduate majors fair on the MCAT, Science GPA, and overall GPA. Also see how this translates to admission to medical schools."),
-                   plotOutput("MCAT_GPA_Scatterplot"),
-                   plotOutput("MCAT_By_Major"),
-                   plotOutput("Cumulative_GPA_By_Major"),
-                   plotOutput("Science_GPA_By_Major")
+                   p("See how different undergraduate majors fair on the MCAT, Science GPA, 
+                     and overall GPA. Also see how this translates to admission to medical schools."),
+            fluidPage(
+               sidebarLayout(
+                 sidebarPanel(
+                      radioButtons(
+                                   inputId = "Matriculant_or_Applicant",
+                                   label = "Select Matriculants or Applicants",
+                                   choices = unique (Major_Data_2.csv),
+                                   )
+                             ),
+                 mainPanel(
+                          plotOutput("MCAT_GPA_Scatterplot"),
+                          plotOutput("MCAT_By_Major"),
+                          plotOutput("Cumulative_GPA_By_Major"),
+                          plotOutput("Science_GPA_By_Major")
+                          )
+                           )
+                      )
                    ),
                   
           
           tabPanel("Target School List",
-                   p("See a list of schools that your average MCAT and GPA are at or above the average MCAT and GPA for that school."),
+                   p("See a list of schools that your average MCAT and GPA are at or above 
+                     the average MCAT and GPA for that school."),
           fluidPage(
           sidebarLayout(
             sidebarPanel(
@@ -132,11 +149,13 @@ navbarPage("Medical School Admissions",
                       style = "color: blue",
                       align = "center"
                       )),
-                 p(h3(("The creators of this shiny app are Grace Amaden '21, Hal Fant '22 and Annie Furr '22.
-                   All three of us are pre-medical students which inspired the idea for this app."), 
+                 p(h3(("The creators of this shiny app are Grace Amaden '21, Hal Fant '22 and 
+                       Annie Furr '22.All three of us are pre-medical students which inspired the 
+                       idea for this app."), 
                       align = "center"
                       )),
-                 p(h3(("We could not have done this without help from our professor, Dr. Gregg Whitworth!"),
+                 p(h3(("We could not have done this without help from our professor, Dr. Gregg 
+                       Whitworth!"),
                       align = "center"
                       )),
                  p(h3(("We hope you find this app useful when looking to apply to medical school!"),
@@ -146,11 +165,13 @@ navbarPage("Medical School Admissions",
                       style = "color: blue",
                       align = "center"
                       )),
-                 p(h3(("Tables A1, A17, A19, from AAMC 2020 Facts Page: https://www.aamc.org/data-reports/
-                   students-residents/interactive-data/2020-facts-applicants-and-matriculants-data"),
+                 p(h3(("Tables A1, A17, A19, from AAMC 2020 Facts Page: https://www.aamc.org/
+                       data-reports/students-residents/interactive-data/2020-facts-applicants-and-
+                       matriculants-data"),
                    align = "center"
                    )),
-                 p(h3(("MCAT Test Scores: https://www.mcattestscores.com/usmedicalschoolsmcatscoresGPA.html#Newyork"),
+                 p(h3(("MCAT Test Scores: https://www.mcattestscores.com/usmedicalschoolsmcat
+                       scoresGPA.html#Newyork"),
                    align = "center"
                    ))
                 )
