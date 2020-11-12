@@ -42,8 +42,8 @@ output$Applicants_By_State_Graph <- renderPlot({GPA_By_State_Data_2.csv %>%
                                                 geom_bar(stat = 'identity')
                                               })
 output$MCAT_GPA_Scatterplot <- renderPlot({Major_Data_2.csv %>%
-                                                ggplot(aes(Total_GPA_Mean, Total_MCAT, fill = Major)) +
-                                                  geom_point() 
+                                                ggplot(aes(Total_GPA_Mean, Total_MCAT, color = Major)) +
+                                                  geom_point(size = 3) 
                                           })
 output$MCAT_By_Major <- renderPlot({Major_Data_2.csv %>%
                                           ggplot(aes(Major, Total_MCAT,
