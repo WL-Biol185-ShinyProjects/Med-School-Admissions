@@ -32,7 +32,7 @@ output$Academics_By_State_Graph <- renderPlot({GPA_By_State_Data.csv %>%
                                               ggplot(aes(Total_GPA_Mean, State_Avg_MCAT,
                                                          color = State_of_Legal_Residence)) +
                                               geom_point() +
-                                              xlim(0, 4) + ylim(472, 528)
+                                              xlim(3, 4) + ylim(490, 528)
                                               })
 
 output$Applicants_By_State_Graph <- renderPlot({GPA_By_State_Data_2.csv %>%
