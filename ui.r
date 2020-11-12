@@ -1,6 +1,7 @@
 library(shiny)
 library(shinydashboard)
 
+#code to load data sets
 Academics_Data.csv <- read.csv(file = 'Data_Sets/Academics_Data.csv')
 GPA_By_State_Data.csv <- read.csv(file = 'Data_Sets/GPA_By_State_Data.csv')
 GPA_By_State_Data_2.csv <- read.csv(file = 'Data_Sets/GPA_By_State_Data_2.csv')
@@ -9,8 +10,10 @@ Major_Data_2.csv <- read.csv(file = 'Data_Sets/Major_Data_2.csv')
 Percentages.csv <- read.csv(file = 'Data_Sets/Percentages.csv')
 List_Data.csv <- read.csv(file = 'Data_Sets/List_Data.csv')
 
+#create the dashboard setup
 navbarPage("Medical School Admissions",
 
+          #code for each tab and what it will display
           tabPanel("Introduction",
                    p(h1(("Welcome!"),
                         style = "color: blue",
@@ -32,6 +35,7 @@ navbarPage("Medical School Admissions",
                       you stand in relation to your selected schools of interest.")),
               sidebarLayout(
                 sidebarPanel(
+                    #code for inputs
                     numericInput(
                                  inputId = "GPA_Input",
                                  label = "Enter GPA",
@@ -56,6 +60,7 @@ navbarPage("Medical School Admissions",
                                multiple = TRUE
                               )
                            ),
+                #code to show what we want in the main panel
                 mainPanel(p("Your point will be generated as the cross section of GPA and MCAT 
                             shown by the black lines."),
                           plotOutput("Academic_Plot"),
