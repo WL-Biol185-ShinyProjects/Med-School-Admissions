@@ -92,6 +92,7 @@ navbarPage("Medical School Admissions",
         
           tabPanel("By Major",
                    p("See how different undergraduate majors fair on the MCAT, Science GPA, and overall GPA. Also see how this translates to admission to medical schools."),
+                   plotOutput("MCAT_GPA_Scatterplot"),
                    plotOutput("MCAT_By_Major"),
                    plotOutput("Cumulative_GPA_By_Major"),
                    plotOutput("Science_GPA_By_Major")
