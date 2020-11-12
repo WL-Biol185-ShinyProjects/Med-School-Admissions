@@ -2,6 +2,7 @@ library(shiny)
 library(shinydashboard)
 library(tidyverse)
 library(tibble)
+library(ggplot2)
 
 Academics_Data.csv <- read.csv(file = 'Data_Sets/Academics_Data.csv')
 GPA_By_State_Data.csv <- read.csv(file = 'Data_Sets/GPA_By_State_Data.csv')
@@ -41,7 +42,7 @@ output$Applicants_By_State_Graph <- renderPlot({GPA_By_State_Data_2.csv %>%
                                                            fill = State_of_Legal_Residence)) +
                                                 geom_bar(stat = 'identity')
                                               })
-
+ggplot(Major_Data_2, aes(Avg_GPA, Avg_MCAT, fill = Major)) + geom_point()
 output$MCAT_By_Major <- renderPlot({Major_Data_2.csv %>%
                                           ggplot(aes(Major, Total_MCAT,
                                                      fill = Applicant_or_Matriculant)) +
