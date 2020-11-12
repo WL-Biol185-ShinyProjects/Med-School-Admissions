@@ -118,6 +118,10 @@ navbarPage("Medical School Admissions",
                        )
                       )
                   )
-                 )
-          
-)
+                 ),
+        
+        tabPanel("Thank You",
+                 p("Thank you to our professor, Dr. Gregg Whitworth, for helping us create this app!")
+                )
+            
+      )
