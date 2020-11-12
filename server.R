@@ -24,8 +24,12 @@ output$Academic_Plot <- renderPlot({
                                     geom_point() +
                                     xlim(0, 4) + ylim(472, 528) +
                                     geom_hline(yintercept = input$MCAT_Input) +
-                                    geom_vline(xintercept = input$GPA_Input)
-                                                                                                     }
+                                    geom_vline(xintercept = input$GPA_Input) +
+                                       main = "Average GPA vs Average MCAT",
+                                       xlab = "Average GPA",
+                                       ylab = "Average MCAT"
+                                       
+                                       }
                                    })
                         
 output$Academics_By_State_Graph <- renderPlot({GPA_By_State_Data.csv %>%
