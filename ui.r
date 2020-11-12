@@ -101,7 +101,7 @@ navbarPage("Medical School Admissions",
                       radioButtons(
                                    inputId = "Matriculant_or_Applicant",
                                    label = "Select Matriculants or Applicants",
-                                   choices = unique (Major_Data_2.csv),
+                                   choices = unique (Major_Data_2.csv$Applicant_or_Matriculant),
                                    )
                              ),
                  mainPanel(
