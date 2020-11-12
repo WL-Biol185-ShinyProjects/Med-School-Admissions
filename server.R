@@ -22,7 +22,7 @@ output$Academic_Plot <- renderPlot({
                                                color = Medical_School)) + 
                                     geom_point() +
                                     xlim(0, 4) + ylim(472, 528) +
-                                    geom_hline(yintercept = input$MCAT_Input)+
+                                    geom_hline(yintercept = input$MCAT_Input) +
                                     geom_vline(xintercept = input$GPA_Input)
                                                                                                      }
                                    })
