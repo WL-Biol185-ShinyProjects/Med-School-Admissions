@@ -154,7 +154,7 @@ navbarPage("Medical School Admissions",
                         align = "center"
                         )),
                    p(h3(("The creators of this shiny app are Grace Amaden '21, Hal Fant '22 and 
-                         Annie Furr '22.All three of us are pre-medical students which inspired the 
+                         Annie Furr '22. All three of us are pre-medical students which inspired the 
                          idea for this app."), 
                         align = "center"
                         )),
