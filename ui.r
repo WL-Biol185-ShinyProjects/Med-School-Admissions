@@ -128,7 +128,7 @@ navbarPage("Medical School Admissions",
                       numericInput(
                                   inputId = "GPA_Input_2",
                                   label = "Enter GPA",
-                                  value = "0",
+                                  value = "3.75",
                                   min = "0",
                                   max = "4.0"
                                   ),
@@ -136,7 +136,7 @@ navbarPage("Medical School Admissions",
                      numericInput(
                                  inputId = "MCAT_Input_2",
                                  label = "Enter MCAT",
-                                 value = "0",
+                                 value = "510",
                                  min = "472",
                                  max = "528"
                                  )
